@@ -1,4 +1,4 @@
-# Copyright (C) 2013 CodeFireX(periment)
+# Copyright (C) 2014 TeamEOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,6 +16,8 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/oppo/find7/overlay
 
 PRODUCT_PACKAGES += \
+    libtime_genoff \
+    libwfdlockengine \
     com.qualcomm.location \
     QComQMIPermissions \
     qcrilmsgtunnel
