@@ -270,6 +270,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/oppo/find7/proprietary/vendor/lib/librmp.so:system/vendor/lib/librmp.so \
     vendor/oppo/find7/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/oppo/find7/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/oppo/find7/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/oppo/find7/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
