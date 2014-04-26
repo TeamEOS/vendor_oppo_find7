@@ -17,7 +17,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/oppo/find7/overlay
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    libwfdlockengine \
     com.qualcomm.location \
     QComQMIPermissions \
     qcrilmsgtunnel

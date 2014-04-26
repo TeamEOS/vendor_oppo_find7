@@ -66,7 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
     vendor/oppo/find7/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
     vendor/oppo/find7/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/oppo/find7/proprietary/lib/drm/libwfdlockengine.so:system/lib/drm/libwfdlockengine.so \
+    vendor/oppo/find7/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/oppo/find7/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/oppo/find7/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/oppo/find7/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
