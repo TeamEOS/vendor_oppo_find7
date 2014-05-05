@@ -49,20 +49,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/oppo/find7/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/oppo/find7/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/oppo/find7/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/oppo/find7/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/oppo/find7/proprietary/etc/firmware/audience-es325-fw.bin:system/etc/firmware/audience-es325-fw.bin \
     vendor/oppo/find7/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/oppo/find7/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/oppo/find7/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/oppo/find7/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/oppo/find7/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/oppo/find7/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/oppo/find7/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/oppo/find7/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/oppo/find7/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/oppo/find7/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/oppo/find7/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/oppo/find7/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/oppo/find7/proprietary/bin/efsks:system/bin/efsks \
     vendor/oppo/find7/proprietary/bin/ks:system/bin/ks \
@@ -83,11 +73,21 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/oppo/find7/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/oppo/find7/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/oppo/find7/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
+    vendor/oppo/find7/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/oppo/find7/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/oppo/find7/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/oppo/find7/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/oppo/find7/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/oppo/find7/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt
+    vendor/oppo/find7/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/oppo/find7/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
+    vendor/oppo/find7/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
+    vendor/oppo/find7/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
+    vendor/oppo/find7/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
+    vendor/oppo/find7/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
+    vendor/oppo/find7/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/oppo/find7/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
+    vendor/oppo/find7/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt
 
 # mpdecision/thermald
 PRODUCT_COPY_FILES += \
