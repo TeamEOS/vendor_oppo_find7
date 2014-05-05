@@ -21,10 +21,15 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/oppo/find7/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/oppo/find7/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/oppo/find7/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/oppo/find7/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/oppo/find7/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/oppo/find7/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/oppo/find7/proprietary/bin/radish:system/bin/radish \
     vendor/oppo/find7/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+    vendor/oppo/find7/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/oppo/find7/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    vendor/oppo/find7/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/oppo/find7/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/oppo/find7/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/oppo/find7/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
