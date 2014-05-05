@@ -31,6 +31,13 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/oppo/find7/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/oppo/find7/proprietary/bin/qrngp:system/bin/qrngp \
+    vendor/oppo/find7/proprietary/bin/sns_cm_conc_test:system/bin/sns_cm_conc_test \
+    vendor/oppo/find7/proprietary/bin/sns_cm_test:system/bin/sns_cm_test \
+    vendor/oppo/find7/proprietary/bin/sns_dsps_tc0001:system/bin/sns_dsps_tc0001 \
+    vendor/oppo/find7/proprietary/bin/sns_file_test:system/bin/sns_file_test \
+    vendor/oppo/find7/proprietary/bin/sns_hal_batch:system/bin/sns_hal_batch \
+    vendor/oppo/find7/proprietary/bin/sns_regedit_ssi:system/bin/sns_regedit_ssi \
+    vendor/oppo/find7/proprietary/bin/sns_smr_loopback_test:system/bin/sns_smr_loopback_test \
     vendor/oppo/find7/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/oppo/find7/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/oppo/find7/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
