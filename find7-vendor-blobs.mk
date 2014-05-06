@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/oppo/find7/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/oppo/find7/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/oppo/find7/proprietary/framework/WfdCommon.jar:system/framework/WfdCommon.jar \
     vendor/oppo/find7/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/oppo/find7/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
     vendor/oppo/find7/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -82,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/oppo/find7/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
     vendor/oppo/find7/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
+    vendor/oppo/find7/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
     vendor/oppo/find7/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
     vendor/oppo/find7/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
     vendor/oppo/find7/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
