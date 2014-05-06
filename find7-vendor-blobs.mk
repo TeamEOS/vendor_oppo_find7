@@ -18,7 +18,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/etc/firmware/libpn544_fw.so:system/etc/firmware/libpn544_fw.so
 
 PRODUCT_COPY_FILES += \
+    vendor/oppo/find7/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/oppo/find7/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/oppo/find7/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/oppo/find7/proprietary/bin/cnd:system/bin/cnd \
     vendor/oppo/find7/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/oppo/find7/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/oppo/find7/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
@@ -26,9 +29,12 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/oppo/find7/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/oppo/find7/proprietary/bin/radish:system/bin/radish \
+    vendor/oppo/find7/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/oppo/find7/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/oppo/find7/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/oppo/find7/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    vendor/oppo/find7/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
+    vendor/oppo/find7/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     vendor/oppo/find7/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/oppo/find7/proprietary/bin/qrngp:system/bin/qrngp \
     vendor/oppo/find7/proprietary/bin/sns_cm_conc_test:system/bin/sns_cm_conc_test \
@@ -39,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/bin/sns_regedit_ssi:system/bin/sns_regedit_ssi \
     vendor/oppo/find7/proprietary/bin/sns_smr_loopback_test:system/bin/sns_smr_loopback_test \
     vendor/oppo/find7/proprietary/bin/ssr_diag:system/bin/ssr_diag \
+    vendor/oppo/find7/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/oppo/find7/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/oppo/find7/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/oppo/find7/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
