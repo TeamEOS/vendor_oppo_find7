@@ -56,6 +56,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/oppo/find7/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/oppo/find7/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+	vendor/oppo/find7/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+    vendor/oppo/find7/proprietary/lib/hw/nfc_nci.msm8974.so:system/lib/hw/nfc_nci.msm8974.so \
     vendor/oppo/find7/proprietary/etc/firmware/audience-es325-fw.bin:system/etc/firmware/audience-es325-fw.bin \
     vendor/oppo/find7/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/oppo/find7/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
