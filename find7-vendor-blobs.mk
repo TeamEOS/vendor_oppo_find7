@@ -47,12 +47,23 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/oppo/find7/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/oppo/find7/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/oppo/find7/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+    vendor/oppo/find7/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/oppo/find7/proprietary/lib/libgesture-core.so:system/lib/libgesture-core.so \
     vendor/oppo/find7/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+	vendor/oppo/find7/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
+    vendor/oppo/find7/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/oppo/find7/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/oppo/find7/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/oppo/find7/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/oppo/find7/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/oppo/find7/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/oppo/find7/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
+	vendor/oppo/find7/proprietary/lib/libmercury.so:system/lib/libmercury.so \
+    vendor/oppo/find7/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/oppo/find7/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/oppo/find7/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/oppo/find7/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/oppo/find7/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/oppo/find7/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/oppo/find7/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
