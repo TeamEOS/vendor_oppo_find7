@@ -14,7 +14,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/oppo/find7/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+    vendor/oppo/find7/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
     vendor/oppo/find7/proprietary/etc/firmware/libpn544_fw.so:system/etc/firmware/libpn544_fw.so
 
 PRODUCT_COPY_FILES += \
