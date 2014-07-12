@@ -70,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/oppo/find7/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/oppo/find7/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/oppo/find7/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/oppo/find7/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	vendor/oppo/find7/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/oppo/find7/proprietary/lib/hw/nfc_nci.msm8974.so:system/lib/hw/nfc_nci.msm8974.so \
