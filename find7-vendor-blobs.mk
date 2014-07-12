@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Link at build time
+PRODUCT_COPY_FILES += \
+	vendor/oppo/find7/proprietary/vendor/lib/libacdbloader.so:obj/lib/libacdbloader.so
+
 PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/oppo/find7/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
