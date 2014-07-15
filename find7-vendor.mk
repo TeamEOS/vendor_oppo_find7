@@ -16,6 +16,7 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/oppo/find7/overlay
 
 PRODUCT_PACKAGES += \
+    CABLService \
     libtime_genoff \
     com.qualcomm.location \
     QComQMIPermissions \
