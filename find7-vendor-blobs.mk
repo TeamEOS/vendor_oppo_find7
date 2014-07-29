@@ -19,8 +19,10 @@ PRODUCT_COPY_FILES += \
 # Vendor binaries
 PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+	vendor/oppo/find7/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/oppo/find7/proprietary/bin/btnvtool:system/bin/btnvtool \
 	vendor/oppo/find7/proprietary/bin/cnd:system/bin/cnd \
+	vendor/oppo/find7/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
 	vendor/oppo/find7/proprietary/bin/efsks:system/bin/efsks \
 	vendor/oppo/find7/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 	vendor/oppo/find7/proprietary/bin/ks:system/bin/ks \
