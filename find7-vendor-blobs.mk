@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
 # Vendor binaries
 PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-	vendor/oppo/find7/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
 	vendor/oppo/find7/proprietary/bin/btnvtool:system/bin/btnvtool \
 	vendor/oppo/find7/proprietary/bin/cnd:system/bin/cnd \
 	vendor/oppo/find7/proprietary/bin/efsks:system/bin/efsks \
