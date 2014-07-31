@@ -218,6 +218,11 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
 	vendor/oppo/find7/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
 	vendor/oppo/find7/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
+	vendor/oppo/find7/proprietary/vendor/firmware/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+	vendor/oppo/find7/proprietary/vendor/firmware/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+	vendor/oppo/find7/proprietary/vendor/firmware/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+	vendor/oppo/find7/proprietary/vendor/firmware/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+	vendor/oppo/find7/proprietary/vendor/firmware/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
 	vendor/oppo/find7/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
 	vendor/oppo/find7/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
 	vendor/oppo/find7/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
