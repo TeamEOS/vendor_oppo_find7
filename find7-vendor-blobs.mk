@@ -50,7 +50,8 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
 	vendor/oppo/find7/proprietary/etc/firmware/libpn544_fw.so:system/etc/firmware/libpn544_fw.so \
 	vendor/oppo/find7/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-	vendor/oppo/find7/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+	vendor/oppo/find7/proprietary/lib/hw/flp.msm8974.so:system/lib/hw/flp.msm8974.so \
+	vendor/oppo/find7/proprietary/lib/hw/gps.msm8974.so:system/lib/hw/gps.msm8974.so \
 	vendor/oppo/find7/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
 	vendor/oppo/find7/proprietary/lib/hw/nfc_nci.msm8974.so:system/lib/hw/nfc_nci.msm8974.so \
 	vendor/oppo/find7/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
@@ -59,7 +60,6 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
 	vendor/oppo/find7/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
 	vendor/oppo/find7/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-	vendor/oppo/find7/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
 	vendor/oppo/find7/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 	vendor/oppo/find7/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
 	vendor/oppo/find7/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
