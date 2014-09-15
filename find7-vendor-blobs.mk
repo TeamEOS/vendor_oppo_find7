@@ -179,10 +179,17 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
 	vendor/oppo/find7/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+	vendor/oppo/find7/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so
