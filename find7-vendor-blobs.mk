@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
 	vendor/oppo/find7/proprietary/lib/hw/nfc_nci.msm8974.so:system/lib/hw/nfc_nci.msm8974.so \
 	vendor/oppo/find7/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
+	vendor/oppo/find7/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
 	vendor/oppo/find7/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/oppo/find7/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/oppo/find7/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
@@ -80,11 +81,13 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
 	vendor/oppo/find7/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
@@ -121,6 +124,8 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -186,6 +191,9 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
@@ -212,12 +220,13 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-	vendor/oppo/find7/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/oppo/find7/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/oppo/find7/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/oppo/find7/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
 
 # Adreno firmware
@@ -228,13 +237,12 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
 	vendor/oppo/find7/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
 	vendor/oppo/find7/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-	vendor/oppo/find7/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pm4.fw \
+	vendor/oppo/find7/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
 	vendor/oppo/find7/proprietary/vendor/firmware/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
 	vendor/oppo/find7/proprietary/vendor/firmware/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
 	vendor/oppo/find7/proprietary/vendor/firmware/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
 	vendor/oppo/find7/proprietary/vendor/firmware/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
 	vendor/oppo/find7/proprietary/vendor/firmware/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-	vendor/oppo/find7/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
 	vendor/oppo/find7/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
 	vendor/oppo/find7/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
 	vendor/oppo/find7/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
