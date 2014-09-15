@@ -183,6 +183,8 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so
 
 # Adreno binaries
