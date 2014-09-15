@@ -244,3 +244,12 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
 	vendor/oppo/find7/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
 	vendor/oppo/find7/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt
+	
+PRODUCT_COPY_FILES += \
+	vendor/oppo/find7/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
+	vendor/oppo/find7/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
+	vendor/oppo/find7/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
+	vendor/oppo/find7/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+	vendor/oppo/find7/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so
+
+
