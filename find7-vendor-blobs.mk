@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
 	vendor/oppo/find7/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
 	vendor/oppo/find7/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+	vendor/oppo/find7/proprietary/lib/libjpeg_old.so:system/lib/libjpeg_old.so \
 	vendor/oppo/find7/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/oppo/find7/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
 	vendor/oppo/find7/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -73,6 +74,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
 	vendor/oppo/find7/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
 	vendor/oppo/find7/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+	vendor/oppo/find7/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
 	vendor/oppo/find7/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
 	vendor/oppo/find7/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
 	vendor/oppo/find7/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
@@ -117,9 +119,18 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_default_video.so:system/vendor/lib/libchromatix_ov5648_default_video.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_default_video_find7s.so:system/vendor/lib/libchromatix_ov5648_default_video_find7s.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_preview.so:system/vendor/lib/libchromatix_ov5648_preview.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_preview_fb.so:system/vendor/lib/libchromatix_ov5648_preview_fb.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_preview_find7s.so:system/vendor/lib/libchromatix_ov5648_preview_find7s.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_zsl.so:system/vendor/lib/libchromatix_ov5648_zsl.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_zsl_fb.so:system/vendor/lib/libchromatix_ov5648_zsl_fb.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov5648_zsl_find7s.so:system/vendor/lib/libchromatix_ov5648_zsl_find7s.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_common.so:system/vendor/lib/libchromatix_ov16825_common.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_default_video.so:system/vendor/lib/libchromatix_ov16825_default_video.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_hfr_60.so:system/vendor/lib/libchromatix_ov16825_hfr_60.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_hfr_120.so:system/vendor/lib/libchromatix_ov16825_hfr_120.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_liveshot.so:system/vendor/lib/libchromatix_ov16825_liveshot.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_preview.so:system/vendor/lib/libchromatix_ov16825_preview.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libchromatix_ov16825_snapshot.so:system/vendor/lib/libchromatix_ov16825_snapshot.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
@@ -133,6 +144,8 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
 	vendor/oppo/find7/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
 	vendor/oppo/find7/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
@@ -157,13 +170,26 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_ov5648.so:system/vendor/lib/libmmcamera_ov5648.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_ov16825.so:system/vendor/lib/libmmcamera_ov16825.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
-	vendor/oppo/find7/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmmgesture-bus2.so:system/vendor/lib/libmmgesture-bus2.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
 	vendor/oppo/find7/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
