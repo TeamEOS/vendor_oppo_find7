@@ -213,6 +213,8 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so
 
 # Adreno binaries
