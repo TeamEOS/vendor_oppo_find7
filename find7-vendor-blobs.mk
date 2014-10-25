@@ -18,30 +18,17 @@ PRODUCT_COPY_FILES += \
 
 # Vendor binaries
 PRODUCT_COPY_FILES += \
-	vendor/oppo/find7/proprietary/bin/adsprpcd:system/bin/adsprpcd \
 	vendor/oppo/find7/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/oppo/find7/proprietary/bin/btnvtool:system/bin/btnvtool \
-	vendor/oppo/find7/proprietary/bin/cnd:system/bin/cnd \
-	vendor/oppo/find7/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
-	vendor/oppo/find7/proprietary/bin/efsks:system/bin/efsks \
-	vendor/oppo/find7/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-	vendor/oppo/find7/proprietary/bin/ks:system/bin/ks \
-	vendor/oppo/find7/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-	vendor/oppo/find7/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-	vendor/oppo/find7/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
 	vendor/oppo/find7/proprietary/bin/irsc_util:system/bin/irsc_util \
 	vendor/oppo/find7/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
 	vendor/oppo/find7/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/oppo/find7/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/oppo/find7/proprietary/bin/netmgrd:system/bin/netmgrd \
-	vendor/oppo/find7/proprietary/bin/qcks:system/bin/qcks \
-	vendor/oppo/find7/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
 	vendor/oppo/find7/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/oppo/find7/proprietary/bin/qseecomd:system/bin/qseecomd \
-	vendor/oppo/find7/proprietary/bin/rfs_access:system/bin/rfs_access \
 	vendor/oppo/find7/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/oppo/find7/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-	vendor/oppo/find7/proprietary/bin/ssr_diag:system/bin/ssr_diag \
 	vendor/oppo/find7/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/oppo/find7/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/oppo/find7/proprietary/etc/firmware/audience-es325-fw.bin:system/etc/firmware/audience-es325-fw.bin \
@@ -249,10 +236,10 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
-    vendor/oppo/find7/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/oppo/find7/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/oppo/find7/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/oppo/find7/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
+	vendor/oppo/find7/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+	vendor/oppo/find7/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+	vendor/oppo/find7/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
 	vendor/oppo/find7/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
 
 # Adreno firmware
@@ -278,12 +265,3 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/find7/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
 	vendor/oppo/find7/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
 	vendor/oppo/find7/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt
-	
-PRODUCT_COPY_FILES += \
-	vendor/oppo/find7/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
-	vendor/oppo/find7/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-	vendor/oppo/find7/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-	vendor/oppo/find7/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
-	vendor/oppo/find7/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so
-
-
